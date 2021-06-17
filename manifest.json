@@ -1,0 +1,22 @@
+{
+	"name": "Manifest V3 Bugs",
+	"manifest_version": 3,
+	"author": "Łukasz A.J. Wrona",
+	"description": "Extension showcasing bugs in Manifest V3 API",
+	"version": "1.0",
+	"permissions": [
+		"activeTab",
+		"tabs",
+		"history",
+		"sessions",
+		"storage"
+	],
+	"options_page": "popup.html",
+	"action": {
+		"deafult_icon": {
+			"19": "icons/history-19-granite.png"
+		},
+		"default_title": "History Menu",
+		"default_popup": "popup.html"
+	}
+}
